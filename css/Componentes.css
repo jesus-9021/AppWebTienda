@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    color: white;
+}
+li {
+    background: orange;
+    height: 30px;
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    flex-basis: 100%;
+}
+
+li a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+    padding: 0%;
+}
+body {
+    background-color: rgba(255, 153, 0, 0.719);
+}
+p {
+    font-size: large;
+}

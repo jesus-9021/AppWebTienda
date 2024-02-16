@@ -1,0 +1,79 @@
+#titulo1 {
+    text-align: center;
+    color: orange;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+li {
+    background: orange;
+    height: 30px;
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    flex-basis: 100%;
+}
+
+li a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+    padding: 0%;
+}
+
+.fondo-principal {
+    background-image: url(../IMÁGENES/1366_2000.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+}
+
+ 
+h1 .strike {
+    text-decoration: line-through;
+}
+ 
+p {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+ 
+.btn {
+    background: none;
+    color: orange;
+    border: 2px solid orange;
+    border-radius: 3px;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+#subtitulo {
+    color: black;
+    font-size: xx-large;
+}
+footer {
+    text-align: center;
+    background: rgba(55, 58, 58, 0.8);
+    color: white;
+    padding: 20px;
+}
+button {
+    margin-bottom: 20rem;
+}
