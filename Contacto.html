@@ -9,19 +9,50 @@
 <body>
     <nav>
         <header>
+            <div id="inicio">
+            <img id="logo" src="./IMÁGENES/logo.png" alt="logo" width="200" height="100">
             <h1>CONTACTO</h1>
+            </div>
             <nav>
                 <ul>
-                    <li><a href="./Tienda.html">Tienda</a></li>
-                    <li><a href="./Portátiles.html">Portátiles</a></li>
-                    <li><a href="./Componentes.html">Componentes</a></li>
-                    <li><a href="./Monitores.html">Monitores</a></li>
-                    <li><a href="./Smarthphones.html">Smartphones</a></li>
-                    <li><a href="./Televisores.html">Televisores</a></li>
-                    <li><a href="./Contacto.html">Contacto</a></li>
+                    <li><a href="./index.html">INICIO</a></li>
+                    <li><a href="./Tienda.html">TIENDA</a></li>
+                    <li><a href="./Productos.html">PRODUCTOS</a></li>
+                    <li><a href="./Contacto.html">CONTACTO</a></li>         
                 </ul>
             </nav>
         </header>
     </nav>
+    <section class="contacto-form">
+        <form action="./enviado.html">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="apellidos" name="apellidos">
+
+            <label for="nombre">Apellidos:</label>
+            <input type="text" id="nombre" name="nombre">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10" required></textarea>
+
+            <button type="submit">Enviar Mensaje<a href="./enviado.html"></a></button>
+        </form>
+    </section>
+    <section>
+        <img id="logos" src="./IMÁGENES/hp.jpg" alt="logo-hp" width="200" height="150" >
+        <img id="logos" src="./IMÁGENES/apple.jpg" alt="logo-apple" width="200" height="150">
+        <img id="logos" src="./IMÁGENES/intel.jpg" alt="logo-intel" width="200" height="130">
+        <img id="logos" src="./IMÁGENES/logitech-logo.jpg" alt="logo-logitech" width="200" height="100">
+        <img id="logos" src="./IMÁGENES/samsung.jpg" alt="logo-hp" width="250" height="100">
+    </section>
+    <section>
+    <a href="./index.html"><img src="./IMÁGENES/volver.png" alt="volver" width="100" height="100"></a>
+    <footer>
+        <p>PC Componentes y Multimedia SLU CIF B73347494. AVDA Europa, ESPAÑA.</p>
+        <a id="email" href="mailto:jal0012@alu.medac.es">EMAIL DE LA EMPRESA</a>
+    </footer>
+    </section>
 </body>
 </html>

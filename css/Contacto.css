@@ -1,13 +1,17 @@
+#inicio {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+#logo {
+    justify-content: flex-start;
+}
 h1 {
     text-align: center;
-    color: white;
+    color: orange;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
 }
-h2 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-transform: uppercase;
-    color: white;
-}
+
 li {
     background: orange;
     height: 30px;
@@ -32,8 +36,59 @@ ul {
     padding: 0%;
 }
 body {
-    background-color: rgba(255, 153, 0, 0.719);
+    background-color: rgb(255, 255, 255);
 }
 p {
     font-size: large;
 }
+
+.contacto-form {
+    border: 2px solid black;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+form {
+    display: grid;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+#logos {
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-around;
+}
+footer {
+    text-align: center;
+    background: rgba(55, 58, 58, 0.8);
+    color: white;
+    padding: 20px;
+}
+
